@@ -1,0 +1,12 @@
+INPUT_LOGS=/app-logs/rajesh/logs/application_1411511669099_0760/*
+MACHINE_MAPPING_FILE_IN_HDFS=/user/rajesh/pig/data/mapping.csv
+
+BASE_DIR=/user/rajesh/pig/test1/
+INTERMEDIATE_DATA_DIR=$BASE_DIR/data
+RESULTS_DIR=$BASE_DIR/results
+
+SRC_TO_ATTEMPT_INFO=$INTERMEDIATE_DATA_DIR/srcToAttempt.csv
+ATTEMPT_INFO=$INTERMEDIATE_DATA_DIR/rate.csv
+
+END_TO_END_TIMINGS=$RESULTS_DIR/end_to_end_result.csv
+ATTEMPT_TIMINGS=$RESULTS_DIR/attempt_timings.csv
